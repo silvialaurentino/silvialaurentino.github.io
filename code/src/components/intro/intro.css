@@ -1,7 +1,6 @@
 .i{
   display: flex;
   height: 100vh;
-  background-color:aliceblue;
 }
 
 .i-left{
@@ -17,24 +16,24 @@
 }
 
 .i-left-wrapper{
-  padding: 50px;
   height: 35%;
   display:flex;
+  padding: 50px;
   flex-direction: column;
   justify-content: space-between;
 }
 
 .i-intro{
-  font-size: 30px;
+  font-size: 3vh;
   font-weight: 300;
 }
 
 .i-name{
-  font-size: 100px;
+  font-size: 10vh;
 }
 
 .i-title{
-  height: 50px;
+  height: 5vh;
   overflow: hidden;
 }
 
@@ -45,33 +44,33 @@
 
 @keyframes move {
   20% {
-    transform: translateY(-50px);
+    transform: translateY(-5vh);
   }
   40% {
-    transform: translateY(-100px);
+    transform: translateY(-10vh);
   }
   60% {
-    transform: translateY(-150px);
+    transform: translateY(-15vh);
   }
   80% {
-    transform: translateY(-200px);
+    transform: translateY(-20vh);
   }
   100% {
-    transform: translateY(-250px);
+    transform: translateY(-25vh);
   }
 }
 
 .i-title-item{
-  height: 50px;
-  font-size: 40px;
-  font-weight: bold;
-  color: cornflowerblue;
+  height: 5vh;
   display: flex;
+  font-size: 4vh;
+  font-weight: bold;
   align-items: center;
+  color: cornflowerblue;
 }
 
 .i-desc{
-  font-size: 20px;
+  font-size: 2.5vh;
 }
 
 .i-img{
@@ -82,18 +81,36 @@
 }
 
 .i-scroll{
-  width: 30px;
-  height: 30px;
+  width: 3vh;
+  height: 3vh;
+  bottom: 2vh;
   position: absolute;
-  bottom: 20px;
 }
 
-.i-bg{
-  clip-path: polygon(0% 100%, 100% 0%, 100% 100%);
-  background-color: cornflowerblue;
+.i-right-bg{
+  top: 0;
+  right: 0;
   width: 100%;
   height: 100%;
   position: absolute;
-  top: 0;
-  right: 0;
+  background-color: cornflowerblue;
+  clip-path: polygon(0% 100%, 100% 65%, 100% 100%);
+}
+
+.i-right-content{
+  height: 100vh;
+  display: flex;
+  position: relative;
+  align-items: center;
+  
+}
+  
+.a-title{
+  font-size: 3.5vh;
+}
+
+.a-desc{
+  font-size: 2vh;
+  margin-top: 3vh;
+  text-align: justify;
 }

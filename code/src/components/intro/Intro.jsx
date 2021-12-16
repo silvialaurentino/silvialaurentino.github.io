@@ -1,5 +1,5 @@
 import "./intro.css"
-//import me from "../../img/me.png"
+import me from "../../img/me.png"
 
 const Intro = () => {
     return (
@@ -11,8 +11,8 @@ const Intro = () => {
                         <h1 className="i-name">silv ia</h1>
                         <div className="i-title">
                             <div className="i-title-wrapper">
+                                <div className="i-title-item">AI Game developer</div>
                                 <div className="i-title-item">Data Scientist</div>
-                                <div className="i-title-item">Game developer</div>
                                 <div className="i-title-item">Photographer</div>
                                 <div className="i-title-item">QA Tester</div>
                                 <div className="i-title-item">Designer</div>
@@ -82,8 +82,29 @@ const Intro = () => {
                     </svg>
                 </div>
                 <div className="i-right">
-                    <div className="i-bg"></div>
-                    <img src={"me"} alt="" className="i-img"/>
+                    <div className="i-right-bg"/>
+                    <div className="i-right-content">
+                        <div className="a-left">
+                            <div className="a-card bg"/>
+                            <div className="a-card">
+                                <img src={me} alt="" className="a-img"/>
+                            </div>
+                        </div>
+                        <div className="a-right">
+                            <div className="a-texts">
+                                <h1 className="a-title">Before it turned into reality, someone believed in an idea.</h1>
+                                <p className="a-desc">
+                                I am between who I was and who I wasn't.
+                                Not everything that defines me is what I aspire, not everything that I aspire defines me.
+                                Between one and other, leaning to extremes in search of balance.
+                                Of several, or one. One, or many.
+                                Full of doubts and excited by this idea.
+                                I see through a gradient between 0 and 9.
+                                I believe that reality is the summary of an interpretation.
+                                I fear my comfort zone, and I know why.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
