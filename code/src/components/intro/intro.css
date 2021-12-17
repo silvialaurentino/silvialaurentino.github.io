@@ -87,6 +87,11 @@
   position: absolute;
 }
 
+.i-right {
+  flex: 1 1;
+  position: relative;
+}
+
 .i-right-bg{
   top: 0;
   right: 0;
@@ -94,7 +99,7 @@
   height: 100%;
   position: absolute;
   background-color: cornflowerblue;
-  clip-path: polygon(0% 100%, 100% 65%, 100% 100%);
+  clip-path: polygon(0% 100%, 100% 70%, 100% 100%);
 }
 
 .i-right-content{
@@ -113,4 +118,86 @@
   font-size: 2vh;
   margin-top: 3vh;
   text-align: justify;
+}
+
+.a-left {
+  flex: 1 1;
+  height: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.a-card {
+  width: 60%;
+  height: 70vh;
+  overflow: hidden;
+  position: relative;
+  border-bottom-left-radius: 30px;
+}
+
+.a-card.bg {
+  top: 70px;
+  left: 70px;
+  position: absolute;
+  background-color: cornflowerblue;
+}
+
+.a-certs {
+  display: block;
+  position: relative;
+  align-items: center;
+}
+
+.a-ufsc {
+  width: 70%;
+  display: block;
+  margin-left: 5vh;
+  align-items: center;
+}
+
+.a-ufsc-img {
+  width: 70%;
+  margin-bottom: 2vh;
+}
+
+.a-ufsc-title {
+  color: #555;
+  font-weight: bold;
+}
+
+.a-ufsc-text {
+  color: #555;
+  font-size: 2vh;
+  text-align: justify;
+}
+
+.a-neuro {
+  width: 70%;
+  display: block;
+  margin-top: 5vh;
+  margin-left: 5vh;
+  align-items: center;
+}
+
+.a-neuro-img {
+  width: 50%;
+  margin-bottom: 2vh;
+}
+
+.a-neuro-title {
+  color: #555;
+  font-weight: bold;
+}
+
+.a-neuro-text {
+  color: #555;
+  font-size: 2vh;
+  text-align: justify;
+}
+
+.a-img {
+  height: 100%;
+  object-fit: cover;
 }
