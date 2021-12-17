@@ -130,11 +130,14 @@
 }
 
 .a-card {
-  width: 60%;
+  width: 80%;
   height: 70vh;
   overflow: hidden;
   position: relative;
+  border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+
 }
 
 .a-card.bg {
