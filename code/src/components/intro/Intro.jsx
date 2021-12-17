@@ -1,5 +1,8 @@
 import "./intro.css"
-import me from "../../img/me.png"
+import me from "../../img/me2.png"
+import ufsc from "../../img/ufsc.png"
+import neuro from "../../img/neuro.png"
+
 
 const Intro = () => {
     return (
@@ -91,18 +94,22 @@ const Intro = () => {
                             </div>
                         </div>
                         <div className="a-right">
-                            <div className="a-texts">
-                                <h1 className="a-title">Before it turned into reality, someone believed in an idea.</h1>
-                                <p className="a-desc">
-                                I am between who I was and who I wasn't.
-                                Not everything that defines me is what I aspire, not everything that I aspire defines me.
-                                Between one and other, leaning to extremes in search of balance.
-                                Of several, or one. One, or many.
-                                Full of doubts and excited by this idea.
-                                I see through a gradient between 0 and 9.
-                                I believe that reality is the summary of an interpretation.
-                                I fear my comfort zone, and I know why.</p>
-                            </div>
+                        <div className="a-certs">
+                    <div className="a-ufsc">
+                        <img src={ufsc} alt="" className="a-ufsc-img"/>
+                        <div className="a-ufsc-text">
+                            <h4 className="a-ufsc-title">Federal University of Santa Catarina</h4>
+                            <p className="a-ufsc-desc">Bachelor's Degree in Information Systems at the Federal University of Santa Catarina, Brazil. Monography: Development of a Personality Detection and Simulation Model in Visual Novel format.</p>
+                        </div>
+                    </div>
+                    <div className="a-neuro">
+                        <img src={neuro} alt="" className="a-neuro-img"/>
+                        <div className="a-neuro-text">
+                            <h4 className="a-neuro-title">NeuroVox Academy</h4>
+                            <p className="a-neuro-desc">Attended the NeuroVox course of Self-knowledge and Transformation taught by Professor Pedro Calabrez, PhD in Psychiatry and Medical Psychology by LiNC, the Clinical Neurosciences Laboratory of Paulista School of Medicine at Unifesp.</p>
+                        </div>
+                    </div>
+                </div>
                         </div>
                     </div>
                 </div>
