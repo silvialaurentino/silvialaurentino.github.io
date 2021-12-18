@@ -1,5 +1,5 @@
 import "./intro.css"
-import me from "../../img/me2.png"
+import me from "../../img/me.png"
 import ufsc from "../../img/ufsc.png"
 import neuro from "../../img/neuro.png"
 
@@ -26,6 +26,13 @@ const Intro = () => {
                             I'm a Data scientist enthusiastic in Neuroscience, an AI Game developer, officially a QA and really an Artist.
                             Creative and passionate about nature, the human brain and everything in between. Everything.
                         </p>
+                        <div> 
+                            <a href="http://silvialaurentino.github.io/" target="_blank"><img src="https://img.shields.io/badge/Portfolio-%23333?style=for-the-badge&logo=github&logoColor=white&color=9cf" target="_blank"/></a>
+                            <a href="https://silvialaurentino.substack.com/" target="_blank"><img src="https://img.shields.io/badge/Newsletter-%23333?style=for-the-badge&logo=substack&logoColor=white&color=9cf" target="_blank"/></a>
+                            <a href="https://www.flickr.com/photos/ketolow/" target="_blank"><img src="https://img.shields.io/badge/Flickr-%23333?style=for-the-badge&logo=flickr&logoColor=white&color=9cf" target="_blank"/></a> 
+                            <a href = "mailto:silvialaurentinc@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white&color=9cf"/></a>
+                            <a href="https://t.me/ketolow" target="_blank"><img src="https://img.shields.io/badge/-Telegram-%23333?style=for-the-badge&logo=telegram&logoColor=white&color=9cf"/></a>
+                        </div>
                     </div>
                     <svg
                         width="75"
