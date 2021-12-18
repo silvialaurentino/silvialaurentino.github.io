@@ -26,7 +26,7 @@ const Intro = () => {
                             I'm a Data scientist enthusiastic in Neuroscience, an AI Game developer, officially a QA and really an Artist.
                             Creative and passionate about nature, the human brain and everything in between. Everything.
                         </p>
-                        <div> 
+                        <div className="i-links"> 
                             <a href="https://github.com/silvialaurentino" target="_blank"><img src="https://img.shields.io/badge/GitHub-%23333?style=for-the-badge&logo=github&logoColor=white&color=9cf" target="_blank"/></a>
                             <a href="https://silvialaurentino.substack.com/" target="_blank"><img src="https://img.shields.io/badge/Newsletter-%23333?style=for-the-badge&logo=substack&logoColor=white&color=9cf" target="_blank"/></a>
                             <a href="https://www.flickr.com/photos/ketolow/" target="_blank"><img src="https://img.shields.io/badge/Flickr-%23333?style=for-the-badge&logo=flickr&logoColor=white&color=9cf" target="_blank"/></a> 
