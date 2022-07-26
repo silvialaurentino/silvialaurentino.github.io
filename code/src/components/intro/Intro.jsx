@@ -23,7 +23,7 @@ const Intro = () => {
                             </div>
                         </div>
                         <p className="i-desc">
-                            I'm a Data scientist enthusiastic in Neuroscience, an AI Game developer, officially a QA and really an Artist.
+                            I'm a Data scientist enthusiastic in Neuroscience, an AI Game developer, officially a FS dev and really an Artist.
                             Creative and passionate about nature, the human brain and everything in between. Everything.
                         </p>
                         <div className="i-links"> 
