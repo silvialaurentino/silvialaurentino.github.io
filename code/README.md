@@ -2,7 +2,7 @@
 <details>
   <summary>preview</summary>
   
-  ![image](https://user-images.githubusercontent.com/28473494/146652277-003efcb1-f62f-4928-8887-d60aa28e9371.png)
+  ![image](https://user-images.githubusercontent.com/28473494/182959692-64cf45ed-34ec-466c-9e6c-35288ddeab5a.png)
   
 </details>
 
